@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.mainbox {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(101, 166, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 80vh;
+    width: 70vw;
+    background-color: beige;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ptop {
+    height: 12%;
+    width: 100%;
+    background-color: rgb(53, 105, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.box2 {
+    height: 20px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+    color: black;
+}
+.elem{
+    width: 30%;
+    padding-left: 80px;
+    color: white;
+    display: flex;
+    gap: 10px;
+  
+}
+.pbottom{
+    height: calc(80vh - 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bubble{
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    margin-left: 8px;
+    background-color: rgb(39, 135, 39);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(231, 218, 192);
+
+}
+.bubble:hover{
+    background-color: rgb(37, 104, 37);
+    cursor: pointer;
+}
