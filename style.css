@@ -83,3 +83,31 @@ body {
     background-color: rgb(37, 104, 37);
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .box {
+        height: 85vh; 
+        width: 95vw; 
+    }
+
+    .box2 {
+        height: 25px;
+        width: 40px; 
+        font-size: 12px;
+    }
+
+    .bubble {
+        height: 35px; 
+        width: 35px; 
+        font-size: 12px; 
+    }
+
+    .elem {
+        flex: 1;
+        padding-left: 0;
+        font-size: 12px; 
+    }
+
+    .ptop {
+        padding: 0 3%; 
+    }
+}
