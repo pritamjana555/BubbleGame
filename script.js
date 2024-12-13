@@ -1,4 +1,4 @@
-var timer = 61;
+var timer = 21;
 var score =0;
 var val=0;
 function makeval(){
